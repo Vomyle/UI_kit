@@ -1,0 +1,193 @@
+* {
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+#container_header .image--header--right {
+  width: 100%;
+  height: 790px;
+  position: absolute;
+}
+
+#container_header .row {
+  margin: 0 !important;
+}
+
+#container_header .container__header .container--header--left {
+  background: #381ddb;
+  padding-left: 160px;
+}
+
+#container_header .container__header .container--header--left .text_home,
+#container_header .container__header .container--header--left .text_navbar_nav {
+  padding-right: 40px;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+#container_header .container__header .container--header--left .text_topmarket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  padding-top: 120px;
+}
+
+#container_header .container__header .container--header--left .text_topmarket .star_topmarket {
+  padding-right: 10px;
+}
+
+#container_header .container__header .container--header--left .text_topmarket span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+#container_header .container__header .container--header--left .text_home {
+  color: #ffa3a3;
+  padding-left: 86px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+#container_header .container__header #title_header {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 73px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 500px;
+  height: 219px;
+  padding-top: 20px;
+  color: #ffa3a3;
+}
+
+#container_header .container__header .behind_title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 470px;
+  color: white;
+  padding-top: 40px;
+}
+
+#container_header .container__header #read_more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+#container_header .container__header #read_more .backdown_readmore {
+  width: 17px;
+  height: 18px;
+  border-radius: 17px;
+  border: 1px solid #ffa3a3;
+  text-align: center;
+  color: #ffa3a3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#container_header .container__header #read_more .text_read_more {
+  color: #ffa3a3;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-right: 17px;
+}
+
+#container_header .container__header .container--header--right {
+  padding: 0;
+}
+
+#container_header .container__header .container--header--right .group-btn {
+  padding-left: 101px;
+  padding-top: 40px;
+  display: inline-block;
+}
+
+#container_header .container__header .container--header--right .group-btn .btn-signup {
+  border: 1px solid blue;
+  color: #381ddb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#container_header .container__header .container--header--right .group-btn .btn-signin {
+  color: #381ddb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#container_header #form {
+  border: 1px solid;
+  width: 340px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#container_header #form .form_getstarted {
+  padding-left: 60px;
+}
+
+#container_header #form .form_getstarted input {
+  border: 1px solid;
+}
+
+#container_header #form #all_img {
+  position: relative;
+}
+
+#container_header #form #all_img .img_laptop {
+  width: 100px;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+}
+
+#container_header #form #all_img .img_above_laptop {
+  height: 350px;
+  width: 70px;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
