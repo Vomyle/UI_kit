@@ -661,4 +661,94 @@
   font-size: 10px;
   padding-top: 1px;
 }
+
+#footer {
+  background: rgba(34, 34, 34, 0.03);
+}
+
+#footer .row {
+  margin: 0;
+}
+
+#footer .row img {
+  padding-left: 40px;
+}
+
+#footer .row .nav-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .row .nav-footer div {
+  padding-right: 40px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#footer .row .group-btn-footer {
+  padding-left: 40px;
+}
+
+#footer .row .group-btn-footer button {
+  color: blue;
+}
+
+#footer .row .group-btn-footer .btn-signup {
+  border: 1px solid blue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#footer .row .group-btn-footer .btn-signin {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#footer .row .text_footer {
+  padding-left: 40px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #222222;
+  width: 400px;
+}
+
+#footer .row-footer {
+  padding-top: 65px;
+}
+
+#footer .row-behind {
+  padding-top: 30px;
+}
+
+#footer .row-behind i {
+  font-size: 30px;
+  padding-left: 43px;
+}
+
+#footer .row-behind .icon-footer {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 160px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -540,26 +540,98 @@
             margin-left: 97%;
         }
     }
-    .container-fluid{
-        h3{
+    .container-fluid {
+        h3 {
             padding-top: 100px;
             text-align: center;
         }
-        .slide{
+        .slide {
             padding-top: 70px;
             text-align: center;
-            img{
+            img {
                 padding-right: 30px;
             }
         }
-        .icon_long_arrow{
+        .icon_long_arrow {
             text-align: center;
             padding-top: 20px;
             opacity: 0.7;
-            span{
+            span {
                 font-size: 10px;
                 padding-top: 1px;
             }
+        }
+    }
+}
+#footer {
+    background: rgba(34, 34, 34, 0.03);
+    .row {
+        margin: 0;
+        img {
+            padding-left: 40px;
+        }
+        .nav-footer {
+            display: flex;
+            div {
+                padding-right: 40px;
+
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+        .group-btn-footer {
+            padding-left: 40px;
+            button {
+                color: blue;
+            }
+            .btn-signup {
+                border: 1px solid blue;
+
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            .btn-signin {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+        .text_footer {
+            padding-left: 40px;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: rgba(34, 34, 34, 1);
+            width: 400px;
+        }
+    }
+    .row-footer {
+        padding-top: 65px;
+    }
+    .row-behind {
+        padding-top: 30px;
+        i {
+            font-size: 30px;
+            padding-left: 43px;
+        }
+        .icon-footer {
+            justify-content: flex-end;
+            display: flex;
+            padding-right: 160px;
         }
     }
 }
