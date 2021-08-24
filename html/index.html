@@ -7,9 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/bootstrap-5.1.0-dist/bootstrap-5.1.0-dist/css/bootstrap.css">
+
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 
@@ -23,20 +34,23 @@
 
                     <nav class="navbar navbar-expand-sm navbar-dark" id="nav">
                         <img class="navbar-brand" src="/html/img/udix..png">
-                        <ul class="navbar-nav">
-                            <li class="nav-item text_home">HOME</li>
-                            <li class="nav-item text_navbar_nav">BLOG</li>
-                            <li class="nav-item text_navbar_nav">PRODUCT</li>
-                            <li class="nav-item text_navbar_nav">CONTACT</li>
-                            <div class="group-btn">
-                                <button class="btn btn-signin">SING IN</button>
-                                <button class="btn btn-signup">SING UP</button>
+                        <div class="navbar-nav">
+                            <button type="button" class="btn menu-dropdown btn-primary dropdown-toggle"
+                                data-toggle="dropdown">
+                                MENU</button>
+                            <div class="dropdown-menu navbar-nav tu">
+                                <div class="nav-item dropdown-item text_home">HOME</div>
+                                <div class="nav-item dropdown-item text_navbar_nav">BLOG</div>
+                                <div class="nav-item dropdown-item text_navbar_nav">PRODUCT</div>
+                                <div class="nav-item dropdown-item text_navbar_nav">CONTACT</div>
+                                <div class="group-btn">
+                                    <button class="btn btn-signin">SING IN</button>
+                                    <button class="btn btn-signup">SING UP</button>
+                                </div>
                             </div>
-                        </ul>
+                        </div>
 
                     </nav>
-
-
                     <div class="text_topmarket">
                         <i class="star_topmarket fas fa-star"></i>
                         <span>Top market company</span>
@@ -52,13 +66,13 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="col-lg-4 container--header--right">
-                <img src="/html/img/image.png" class="image--header--right">
+            <div class="col-lg-4 container--header--right">
+                <!-- <img src="/html/img/image.png" class="image--header--right">
                 <div class="group-btn">
                     <button class="btn btn-signin">SING IN</button>
                     <button class="btn btn-signup">SING UP</button>
-                </div>
-            </div> -->
+                </div> -->
+            </div>
         </div>
         <form action="/action_page.php" id="form">
             <div class="form_getstarted">
@@ -188,9 +202,9 @@
             <div class="text_container_back">Get the Onboarding Package for Free and enjoy our platform with the support
                 of our professional
                 onboarding team.</div>
-            <div class="input_surbscribe">
-                <input type="text" placeholder="Name">
-                <button class="btn btn-danger">Surbscribe</button>
+            <div class="input_surbscribe row">
+                <input type="text" class="col-xs-6" placeholder="Name">
+                <button class="btn btn-danger col-xs-6">Surbscribe</button>
             </div>
             <div class="warning">WARNING: once you join udix you
                 will lose the need for any other landing page
@@ -221,8 +235,8 @@
 
             </div>
             <div class="col-md-8 nav">
-                <div id="nav-footer">
-                    <div class="nav-footer">
+                <div id="nav-footer" class="row">
+                    <div class="nav-footer col-xs-6">
                         <div class="nav-item">
                             HOME
                         </div>
@@ -236,7 +250,7 @@
                             CONTACT
                         </div>
                     </div>
-                    <div class="group-btn-footer">
+                    <div class="group-btn-footer col-xs-6">
                         <button class="btn btn-signin">SIGN IN</button>
                         <button class="btn btn-signup">SIGN UP</button>
                     </div>
@@ -244,6 +258,7 @@
             </div>
         </div>
         <div class="row row-behind">
+
             <div class="col-md-6">
 
                 <div class="text_footer">udix is a market-leading provider of digital marketing services, using
