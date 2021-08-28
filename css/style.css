@@ -161,15 +161,14 @@
 }
 
 #container_header .container__header .container--header--left #container .tu .group-btn .btn-signup {
-  color: blue;
-  border: 1px solid blue;
   color: #381ddb;
+  border: 1px solid #381ddb;
+  letter-spacing: 0em;
+  text-align: left;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
 }
 
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -180,14 +179,13 @@
 }
 
 #container_header .container__header .container--header--left #container .tu .group-btn .btn-signin {
-  color: blue;
   color: #381ddb;
+  letter-spacing: 0em;
+  text-align: left;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
 }
 
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -648,7 +646,7 @@
 
 .body .leading_provider .hollow_behind_leadingprovider .hollow_behind {
   height: 1px;
-  background: #ee7b7b;
+  background: #ffa3a3;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -763,7 +761,7 @@
 
 .body #container_solution .container_device #text_img_pig i {
   padding-top: 27px;
-  color: blue;
+  color: #381ddb;
 }
 
 .body #container_solution .container_device #text_img_pig .img_device {
@@ -815,7 +813,7 @@
 .body #container_solution .container_device .text_img_vecto i,
 .body #container_solution .container_device .text_img_telephone i {
   padding-top: 27px;
-  color: blue;
+  color: #381ddb;
 }
 
 .body #container_solution .container_device .text_img_vecto .img_device,
@@ -858,7 +856,7 @@
 
 .body .hollow_behind_leadingprovider .hollow_behind {
   height: 1px;
-  background: #ee7b7b;
+  background: #ffa3a3;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -1396,11 +1394,11 @@
 }
 
 #footer .row .group-btn-footer button {
-  color: blue;
+  color: #381ddb;
 }
 
 #footer .row .group-btn-footer .btn-signup {
-  border: 1px solid blue;
+  border: 1px solid #381ddb;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
